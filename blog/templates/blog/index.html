@@ -23,14 +23,14 @@
         <div id="home-post-list">
             <!-- 首页轮播 -->
             {% if carousel_page_list%}
-            {% include "./blog/include/carousel.html"%}
+            {% include "blog/include/carousel.html"%}
             {% endif%}
 
             <!--首页文章列表 -->
             {% if article_list %}
             {% with post_list=article_list %}
             {% for post in post_list %}
-                {% include "./blog/include/home_post.html" %}
+                {% include "blog/include/home_post.html" %}
             {% endfor %}
             {% endwith %}
             {% endif %}
