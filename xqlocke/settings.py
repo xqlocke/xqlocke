@@ -15,6 +15,9 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static/'),
+]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -25,7 +28,7 @@ SECRET_KEY = 'k!(r$c19*twnt)8!*isrlxi-t%w^ksx5%%-*7ot--m2=%^q*y5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'xqlocke',
     'blog',
     'vmaig_auth',
     'vmaig_comments',
@@ -83,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'xqlocke',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': '199123',
         'HOST': 'localhost',
         'PORT': '3306',
     }
