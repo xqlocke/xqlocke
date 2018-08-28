@@ -6,7 +6,7 @@ from blog.models import News
 
 urlpatterns = [
         url(r'^$', IndexView.as_view(), name='index-view'),
-        url(r'^article/(?P<slug>\w+).html$',
+        url(r'^article/(?P<slug>[\w\s]+).html$',
             ArticleView.as_view(), name='article-detail-view'),
         url(r'^all/$', AllView.as_view(), name='all-view'),
         url(r'^search/$', SearchView.as_view()),
