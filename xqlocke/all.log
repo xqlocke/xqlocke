@@ -1,0 +1,702 @@
+[2018-08-30 01:38:31,159] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 01:38:31,159] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:02:44,757] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:02:44,757] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:24:48,598] [ERROR] log : Internal Server Error: /usercontrol/changetx
+[2018-08-30 02:24:48,598] [ERROR] log : Internal Server Error: /usercontrol/changetx
+[2018-08-30 02:24:57,935] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    if not os.path.exists(filedir):
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:24:57,935] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    if not os.path.exists(filedir):
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:28:18,922] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    if not os.path.exists(filedir):
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:28:18,922] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    if not os.path.exists(filedir):
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:52:36,900] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    if not os.path.exists(filedir):
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:52:36,900] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    if not os.path.exists(filedir):
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:58:35,188] [ERROR] views : *****************000000000000000""""""""""""""""""""""""
+[2018-08-30 02:58:35,188] [ERROR] views : ***********************%s**********************
+[2018-08-30 02:58:35,320] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 02:58:35,320] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 03:01:29,345] [ERROR] log : Internal Server Error: /usercontrol/changetx
+[2018-08-30 03:01:29,345] [ERROR] log : Internal Server Error: /usercontrol/changetx
+[2018-08-30 03:25:13,848] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'
+[2018-08-30 03:25:13,848] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'
+[2018-08-30 03:27:55,161] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'
+[2018-08-30 03:27:55,161] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'
+[2018-08-30 03:35:30,383] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'tx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 237, in changetx
+    data = request.POST['tx']
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'tx'
+[2018-08-30 03:35:30,383] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'tx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 237, in changetx
+    data = request.POST['tx']
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'tx'
+[2018-08-30 03:35:40,541] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'tx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 237, in changetx
+    data = request.POST['tx']
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'tx'
+[2018-08-30 03:35:40,541] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'tx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 237, in changetx
+    data = request.POST['tx']
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'tx'
+[2018-08-30 03:52:24,631] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'
+[2018-08-30 03:52:24,631] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'
+[2018-08-30 03:58:58,211] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'static'
+[2018-08-30 03:58:58,211] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'static'
+[2018-08-30 04:21:48,007] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 04:21:48,007] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 04:31:00,491] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 04:31:00,491] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 04:32:20,560] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 04:32:20,560] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 252, in changetx
+    os.makedirs(filedir)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 231, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'vmaig_auth'
+[2018-08-30 04:45:25,305] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'
+[2018-08-30 04:45:25,305] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 47, in post
+    return self.changetx(request)
+  File "/home/ubuntu/git/xqlocke/xqlocke/../vmaig_auth/views.py", line 254, in changetx
+    file = open(path, "wb+")
+PermissionError: [Errno 13] Permission denied: '/home/ubuntu/git/xqlocke/static/tx/tx_100x100_1.jpg'

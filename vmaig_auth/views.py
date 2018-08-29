@@ -244,7 +244,7 @@ class UserControl(View):
             return HttpResponse(u"上传头像错误", status=500)
         imgData = base64.b64decode(data)
         filename = "tx_100x100_{}.jpg".format(request.user.id)
-        filedir = "vmaig_auth/static/tx/"
+        filedir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'static/tx').replace('\\', '/')
         static_root = getattr(settings, 'STATIC_ROOT', None)
         if static_root:
             filedir = os.path.join(static_root, 'tx')
@@ -255,12 +255,10 @@ class UserControl(View):
         file.write(imgData)
         file.flush()
         file.close()
-
         # 修改头像分辨率
         im = Image.open(path)
         im = im.convert('RGB')
         out = im.resize((100, 100), Image.ANTIALIAS)
-        print(path)
         out.save(path)
         request.user.img = "/static/tx/"+filename
         request.user.save()
